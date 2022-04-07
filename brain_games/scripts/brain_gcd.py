@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import prompt
-from brain_games.games.calc import create_random_expr
+from random import randint
+import math
 
 
 def main():
@@ -8,19 +9,21 @@ def main():
     name = prompt.string('May I have your name? ')
     if name:
         print('Hello, {}!'.format(name))
-    print('What is the result of the expression?')
+    print('Find the greatest common divisor of given numbers.')
     i = 0
     while i <= 2:
-        ran_expression = create_random_expr()
-        print('Question: {}'.format(ran_expression))
-        true_answer = str(eval(ran_expression))
+        num1 = randint(1, 100)
+        num2 = randint(1, 100)
+        rand_expression = '{} {}'.format(num1, num2)
+        print('Question: {}'.format(rand_expression))
         answer = prompt.string('Your answer: ')
-        if answer == true_answer:
+        true_result = str(math.gcd(num1, num2))
+        if answer == true_result:
             print('Correct!')
         else:
             print(
                 "'{}' is wrong answer ;(. "
-                "Correct answer was '{}'.".format(answer, true_answer)
+                "Correct answer was '{}'.".format(answer, true_result)
             )
             print("Let's try again, {}!".format(name))
             break

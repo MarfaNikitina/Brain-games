@@ -16,30 +16,29 @@ def main():
     if name:
         print('Hello, {}!'.format(name))
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    first_number = randint(1, 100)
-    second_number = randint(1, 100)
-    third_number = randint(1, 100)
-    random_numbers = (first_number, second_number, third_number)
-    for i in random_numbers:
-        print('Question: {}'.format(i))
+    i = 0
+    while i <= 2:
+        random_number = randint(1, 100)
+        print('Question: {}'.format(random_number))
         answer = prompt.string('Your answer: ')
-        if (is_even(i) and answer == 'yes') \
-                or (not is_even(i) and answer == 'no'):
+        if (is_even(random_number) and answer == 'yes') \
+                or (not is_even(random_number) and answer == 'no'):
             print('Correct!')
-        elif is_even(i) and answer != 'yes':
+        elif is_even(random_number) and answer != 'yes':
             print(
                 "'{}' is wrong answer ;(. "
                 "Correct answer was 'yes'.".format(answer)
             )
             print("Let's try again, {}!".format(name))
             break
-        elif not is_even(i) and answer != 'no':
+        elif not is_even(random_number) and answer != 'no':
             print(
                 "'{}' is wrong answer ;(. "
                 "Correct answer was 'no'.".format(answer)
             )
             print("Let's try again, {}!".format(name))
             break
+        i += 1
         print('Congratulations, {}!'.format(name))
 
 
