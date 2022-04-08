@@ -1,8 +1,10 @@
 ### Hexlet tests and linter status:
-https://asciinema.org/a/O4tfwgE2BIS3wJuBFlcIUwQJj
+https://asciinema.org/a/BohA73gUA3UOK1amUXtpYGWxF
+https://asciinema.org/a/79eHBuovbqd5fearkLFY037CX
+https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n
+https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W
+https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb
 
-
-https://asciinema.org/a/q02lEhorfWcT9sAT7GSWxMNIn
 
 https://github.com/MarfaNikitina/python-project-lvl1/.github/workflows/main.yml/badge.svg)
 
