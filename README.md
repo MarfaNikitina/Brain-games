@@ -1,4 +1,7 @@
 ### Hexlet tests and linter status:
+https://asciinema.org/a/O4tfwgE2BIS3wJuBFlcIUwQJj
+
+
 https://asciinema.org/a/q02lEhorfWcT9sAT7GSWxMNIn
 
 https://github.com/MarfaNikitina/python-project-lvl1/.github/workflows/main.yml/badge.svg)

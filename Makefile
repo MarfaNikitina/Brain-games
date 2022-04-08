@@ -11,7 +11,7 @@ brain-even:
 	poetry run brain-even
 
 package-install:
-	python3 -m pip install --user dist/*.whl
+	python3 -m pip install dist/*.whl
 
  publish:
 	poetry publish --dry-run
