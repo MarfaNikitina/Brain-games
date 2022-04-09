@@ -9,10 +9,6 @@ def is_even(number):
         return False
 
 
-RULE_OF_THE_GAME = 'Answer "yes" if the number is even,' \
-                       ' otherwise answer "no".'
-
-
 def even():
     RULE_OF_THE_GAME = 'Answer "yes" if the number is even,' \
                        ' otherwise answer "no".'
