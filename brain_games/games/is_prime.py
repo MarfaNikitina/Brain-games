@@ -14,7 +14,7 @@ def prime():
                        ' Otherwise answer "no".'
     expression = randint(1, 100)
     if is_prime(expression):
-            true_answer = 'yes'
+        true_answer = 'yes'
     else:
-            true_answer = 'no'
+        true_answer = 'no'
     return (expression, true_answer, rule_of_the_game)
