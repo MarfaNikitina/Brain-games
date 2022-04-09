@@ -9,4 +9,5 @@ def gcd():
     num2 = randint(1, 100)
     expression = '{} {}'.format(num1, num2)
     true_answer = str(math.gcd(num1, num2))
-    return (expression, true_answer, RULE_OF_THE_GAME)
+    result_touple = (expression, true_answer, RULE_OF_THE_GAME)
+    return result_touple

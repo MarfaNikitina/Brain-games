@@ -17,4 +17,5 @@ def prime():
         true_answer = 'yes'
     else:
         true_answer = 'no'
-    return (expression, true_answer, RULE_OF_THE_GAME)
+    result_touple = (expression, true_answer, RULE_OF_THE_GAME)
+    return result_touple

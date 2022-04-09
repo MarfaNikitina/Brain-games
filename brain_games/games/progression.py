@@ -23,4 +23,5 @@ def progression():
             expression = expression + ' ' + '..'
         else:
             expression = expression + ' ' + str(numb)
-    return (expression, true_answer, RULE_OF_THE_GAME)
+    result_touple = (expression, true_answer, RULE_OF_THE_GAME)
+    return result_touple

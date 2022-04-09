@@ -18,4 +18,5 @@ def calc():
     RULE_OF_THE_GAME = 'What is the result of the expression?'
     expression = create_random_expression()
     true_answer = str(eval(expression))
-    return (expression, true_answer, RULE_OF_THE_GAME)
+    result_touple = (expression, true_answer, RULE_OF_THE_GAME)
+    return result_touple
