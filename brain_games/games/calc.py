@@ -4,7 +4,7 @@ from random import randint, choice
 import operator
 
 
-def create_random_expr():
+def create_random_expression():
     numb1 = randint(1, 100)
     numb2 = randint(1, 100)
     ops = {'+': operator.add,
@@ -17,6 +17,6 @@ def create_random_expr():
 
 def calc():
     rule_of_the_game = 'What is the result of the expression?'
-    expression = create_random_expr()
-    true_answer = str(eval(ran_expression))
+    expression = create_random_expression()
+    true_answer = str(eval(expression))
     return (expression, true_answer, rule_of_the_game)

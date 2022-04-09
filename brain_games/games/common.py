@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import prompt
-"""Импортируем функцию и извлекаем из нее 3 переменные через распаковку кортежа"""
 
 
 def common_logic_of_games(function):
+    """извлекаем переменные из функции"""
     expression = function()[0]
     true_answer = function()[1]
     rule_of_the_game = function()[2]
