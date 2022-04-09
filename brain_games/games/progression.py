@@ -13,7 +13,7 @@ def make_progression():
 
 
 def progression():
-    rule_of_the_game = 'What number is missing in the progression?'
+    RULE_OF_THE_GAME = 'What number is missing in the progression?'
     random_expression = make_progression()
     secret_num = choice(random_expression)
     true_answer = str(secret_num)
@@ -23,4 +23,4 @@ def progression():
             expression = expression + ' ' + '..'
         else:
             expression = expression + ' ' + str(numb)
-    return (expression, true_answer, rule_of_the_game)
+    return (expression, true_answer, RULE_OF_THE_GAME)

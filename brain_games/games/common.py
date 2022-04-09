@@ -3,16 +3,13 @@ import prompt
 
 
 def common_logic_of_games(function):
-    """извлекаем переменные из функции"""
-    expression = function()[0]
-    true_answer = function()[1]
-    rule_of_the_game = function()[2]
+    (expression, true_answer, RULE_OF_THE_GAME) = function
     """print greeting"""
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     if name:
         print('Hello, {}!'.format(name))
-    print(rule_of_the_game)
+    print(RULE_OF_THE_GAME)
     i = 0
     while i < 3:
         print(f'Question: {expression}')

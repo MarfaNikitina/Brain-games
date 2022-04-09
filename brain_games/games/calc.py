@@ -15,7 +15,7 @@ def create_random_expression():
 
 
 def calc():
-    rule_of_the_game = 'What is the result of the expression?'
+    RULE_OF_THE_GAME = 'What is the result of the expression?'
     expression = create_random_expression()
     true_answer = str(eval(expression))
-    return (expression, true_answer, rule_of_the_game)
+    return (expression, true_answer, RULE_OF_THE_GAME)
