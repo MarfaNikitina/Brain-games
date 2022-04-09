@@ -3,7 +3,10 @@ import prompt
 """Импортируем функцию и извлекаем из нее 3 переменные через распаковку кортежа"""
 
 
-def common_logic_of_games(expression, true_answer, rule_of_the_game):
+def common_logic_of_games(function):
+    expression = function()[0]
+    true_answer = function()[1]
+    rule_of_the_game = function()[2]
     """print greeting"""
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')

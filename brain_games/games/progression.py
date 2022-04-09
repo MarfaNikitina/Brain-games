@@ -2,19 +2,23 @@
 from random import randint, choice
 
 
-def progression():
-    rule_of_the_game = 'What number is missing in the progression?'
+def make_progression():
     num = randint(0, 10)
     step = randint(1, 10)
-    progression_list = []
+    progr_list = []
     for i in range(10):
         next_step = num + step * i
-        progression_list.append(next_step)
+        progr_list.append(next_step)
+    return progr_list
 
-    secret_num = choice(progression_list)
+
+def progression():
+    rule_of_the_game = 'What number is missing in the progression?'
+    random_expression = make_progression()
+    secret_num = choice(random_expression)
     true_answer = str(secret_num)
     expression = ''
-    for numb in progression_list:
+    for numb in random_expression:
         if numb == secret_num:
             expression = expression + ' ' + '..'
         else:
