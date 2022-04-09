@@ -10,4 +10,3 @@ def gcd():
     expression = '{} {}'.format(num1, num2)
     true_answer = str(math.gcd(num1, num2))
     return (expression, true_answer, rule_of_the_game)
-

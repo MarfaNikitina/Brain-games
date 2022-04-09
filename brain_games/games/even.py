@@ -11,7 +11,8 @@ def is_even(number):
 
 def even():
     expression = randint(1, 100)
-    rule_of_the_game = 'Answer "yes" if the number is even, otherwise answer "no".'
+    rule_of_the_game = 'Answer "yes" if the number is even,' \
+                       ' otherwise answer "no".'
     if is_even(expression):
         true_answer = 'yes'
     else:
