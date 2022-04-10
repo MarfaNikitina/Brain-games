@@ -19,5 +19,6 @@ def calc():
     true_result = str(eval(random_expression))
     return random_expression, true_result
 
-(expression, true_answer) = gcd()
+
+(expression, true_answer) = calc()
 RULE_OF_THE_GAME = 'What is the result of the expression?'
