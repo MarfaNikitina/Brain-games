@@ -19,5 +19,5 @@ def prime():
 
 
 (expression, true_answer) = prime()
-RULE_OF_THE_GAME = 'Answer "yes" if given number is prime.'\
-                       ' Otherwise answer "no".'
+RULE_OF_THE_GAME = 'Answer "yes" if given number is prime.' \
+                   'Otherwise answer "no".'
