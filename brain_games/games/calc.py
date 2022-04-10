@@ -10,7 +10,7 @@ def create_random_expression():
            '-': operator.sub,
            '*': operator.mul}
     random_ops = choice(list(ops.keys()))
-    ran_expression = str(numb1) + random_ops + str(numb2)
+    ran_expression = str(numb1) + ' ' + random_ops + ' ' + str(numb2)
     return ran_expression
 
 
