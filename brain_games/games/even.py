@@ -19,5 +19,5 @@ def even():
 
 
 (expression, true_answer) = even()
-RULE_OF_THE_GAME = 'Answer "yes" if the number is even,' \
+RULE_OF_THE_GAME = 'Answer "yes" if the number is even,'\
                        ' otherwise answer "no".'
