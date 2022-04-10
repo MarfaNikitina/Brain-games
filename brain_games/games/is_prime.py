@@ -3,19 +3,21 @@ from random import randint
 
 
 def is_prime(num):
-    devider = 2
-    while num % devider != 0:
-        devider += 1
-    return devider == num
+    dev = 2
+    while num % dev != 0:
+        dev += 1
+    return dev == num
 
 
 def prime():
-    RULE_OF_THE_GAME = 'Answer "yes" if given number is prime.' \
-                       ' Otherwise answer "no".'
-    expression = randint(1, 100)
-    if is_prime(expression):
-        true_answer = 'yes'
+    ran_expression = randint(1, 100)
+    if is_prime(ran_expression):
+        true_result = 'yes'
     else:
-        true_answer = 'no'
-    result_touple = (expression, true_answer, RULE_OF_THE_GAME)
-    return result_touple
+        true_result = 'no'
+    return ran_expression, true_result
+
+
+(expression, true_answer) = prime()
+RULE_OF_THE_GAME = 'Answer "yes" if given number is prime.' \
+                       ' Otherwise answer "no".'

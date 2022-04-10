@@ -5,23 +5,25 @@ from random import randint, choice
 def make_progression():
     num = randint(0, 10)
     step = randint(1, 10)
-    progr_list = []
+    progression_list = []
     for i in range(10):
         next_step = num + step * i
-        progr_list.append(next_step)
-    return progr_list
+        progression_list.append(next_step)
+    return progression_list
 
 
 def progression():
-    RULE_OF_THE_GAME = 'What number is missing in the progression?'
     random_expression = make_progression()
     secret_num = choice(random_expression)
-    true_answer = str(secret_num)
-    expression = ''
+    true_result = str(secret_num)
+    visible_expression = ''
     for numb in random_expression:
         if numb == secret_num:
-            expression = expression + ' ' + '..'
+            visible_expression = visible_expression + ' ' + '..'
         else:
-            expression = expression + ' ' + str(numb)
-    result_touple = (expression, true_answer, RULE_OF_THE_GAME)
-    return result_touple
+            visible_expression = visible_expression + ' ' + str(numb)
+    return visible_expression, true_result
+
+
+RULE_OF_THE_GAME = 'What number is missing in the progression?'
+(expression, true_answer) = progression()

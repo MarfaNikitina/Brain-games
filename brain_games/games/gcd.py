@@ -4,10 +4,12 @@ import math
 
 
 def gcd():
-    RULE_OF_THE_GAME = 'Find the greatest common divisor of given numbers.'
     num1 = randint(1, 100)
     num2 = randint(1, 100)
-    expression = '{} {}'.format(num1, num2)
-    true_answer = str(math.gcd(num1, num2))
-    result_touple = (expression, true_answer, RULE_OF_THE_GAME)
-    return result_touple
+    ran_expression = '{} {}'.format(num1, num2)
+    true_result = str(math.gcd(num1, num2))
+    return ran_expression, true_result
+
+
+(expression, true_answer) = gcd()
+RULE_OF_THE_GAME = 'Find the greatest common divisor of given numbers.'

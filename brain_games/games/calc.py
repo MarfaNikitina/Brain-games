@@ -15,8 +15,9 @@ def create_random_expression():
 
 
 def calc():
-    RULE_OF_THE_GAME = 'What is the result of the expression?'
-    expression = create_random_expression()
-    true_answer = str(eval(expression))
-    result_touple = (expression, true_answer, RULE_OF_THE_GAME)
-    return result_touple
+    random_expression = create_random_expression()
+    true_result = str(eval(random_expression))
+    return random_expression, true_result
+
+(expression, true_answer) = gcd()
+RULE_OF_THE_GAME = 'What is the result of the expression?'
