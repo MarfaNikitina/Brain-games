@@ -3,7 +3,9 @@ import prompt
 
 
 def common_logic_of_games(function):
-    (expression, true_answer, RULE_OF_THE_GAME) = function()
+    expression = function[0]
+    true_answer = function[1]
+    RULE_OF_THE_GAME = function[2]
     """print greeting"""
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
