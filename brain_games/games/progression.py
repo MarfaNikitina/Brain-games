@@ -19,9 +19,9 @@ def progression():
     visible_expression = ''
     for numb in random_expression:
         if numb == secret_num:
-            visible_expression = visible_expression + ' ' + '..'
+            visible_expression = visible_expression + '..' + ' '
         else:
-            visible_expression = visible_expression + ' ' + str(numb)
+            visible_expression = visible_expression + str(numb) + ' '
     return visible_expression, true_result
 
 
