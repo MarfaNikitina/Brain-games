@@ -3,7 +3,7 @@ import prompt
 
 
 def common_logic_of_games(game):
-    """print greeting"""
+    """Импортируем игру из модуля, распаковываем кортеж и извлекаем необходимые переменные"""
     (expression, true_answer, RULE_OF_THE_GAME) = game()
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
