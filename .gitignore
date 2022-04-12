@@ -1,2 +1,10 @@
 .venv
 venv
+dist
+pycache
+*.pyc
+new_venv
+setup.cfg
+poetry.lock
+=
+__init__.py
