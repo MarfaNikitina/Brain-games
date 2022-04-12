@@ -4,9 +4,7 @@ from brain_games.common_logic import common_logic_of_games
 
 
 def main():
-    common_logic_of_games(calc.expression,
-                          calc.true_answer,
-                          calc.RULE_OF_THE_GAME)
+    common_logic_of_games(calc.game)
 
 
 if __name__ == '__main__':

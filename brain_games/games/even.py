@@ -2,6 +2,10 @@
 from random import randint
 
 
+RULE_OF_THE_GAME = 'Answer "yes" if the number is even, ' \
+                   'otherwise answer "no".'
+
+
 def is_even(number):
     if number % 2 == 0:
         return True
@@ -9,15 +13,10 @@ def is_even(number):
         return False
 
 
-def even():
-    random_number = randint(1, 100)
+def game():
+    question = randint(1, 100)
     if is_even(random_number):
         true_result = 'yes'
     else:
         true_result = 'no'
-    return random_number, true_result
-
-
-(expression, true_answer) = even()
-RULE_OF_THE_GAME = 'Answer "yes" if the number is even, ' \
-                   'otherwise answer "no".'
+    return question, true_result

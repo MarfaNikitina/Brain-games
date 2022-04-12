@@ -3,6 +3,9 @@ from random import randint, choice
 import operator
 
 
+RULE_OF_THE_GAME = 'What is the result of the expression?'
+
+
 def create_random_expression():
     numb1 = randint(1, 100)
     numb2 = randint(1, 100)
@@ -14,11 +17,7 @@ def create_random_expression():
     return ran_expression
 
 
-def calc():
-    random_expression = create_random_expression()
-    true_result = str(eval(random_expression))
-    return random_expression, true_result
-
-
-(expression, true_answer) = calc()
-RULE_OF_THE_GAME = 'What is the result of the expression?'
+def game():
+    question = create_random_expression()
+    true_result = str(eval(question))
+    return question, true_result
