@@ -4,15 +4,15 @@ import prompt
 
 def common_logic_of_games(game):
     """print greeting"""
-    (expression, true_answer) = game()
-    RULE_OF_THE_GAME = game.RULE_OF_THE_GAME
+    (expression, true_answer, RULE_OF_THE_GAME) = game()
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     if name:
         print('Hello, {}!'.format(name))
     print(RULE_OF_THE_GAME)
     i = 0
-    while i < 3:
+    MAX_COUNT_OF_TRY = 3
+    while i < MAX_COUNT_OF_TRY:
         print(f'Question: {expression}')
         answer = prompt.string('Your answer: ')
         if answer == true_answer:
