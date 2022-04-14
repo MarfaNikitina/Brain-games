@@ -14,22 +14,11 @@
 3) игра вопрос-ответ, где игрок должен дать 3 верных ответа для победы
 4) при ошибке выдается специальное сообщение и игра завершается. "Let's try again))", попробуй снова, предлагает программа. 
 
-
-
-
-
-
-<a href="https://asciinema.org/a/BohA73gUA3UOK1amUXtpYGWxF" target="_blank"><img src="https://asciinema.org/a/BohA73gUA3UOK1amUXtpYGWxF.svg" /></a>
-<a href="https://asciinema.org/a/79eHBuovbqd5fearkLFY037CX" target="_blank"><img src="https://asciinema.org/a/79eHBuovbqd5fearkLFY037CX.svg" /></a>
-<a href="https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n" target="_blank"><img src="https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n.svg" /></a>
-<a href="https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W" target="_blank"><img src="https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W.svg" /></a>
-<a href="https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb" target="_blank"><img src="https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb.svg" /></a>
-
-<script id="asciicast-BohA73gUA3UOK1amUXtpYGWxF" src="https://asciinema.org/a/BohA73gUA3UOK1amUXtpYGWxF.js" async></script>
-<script id="asciicast-79eHBuovbqd5fearkLFY037CX" src="https://asciinema.org/a/79eHBuovbqd5fearkLFY037CX.js" async></script>
-<script id="asciicast-0CoVMZFXJOS6b6Krl4hK3Lt5n" src="https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n.js" async></script>
-<script id="asciicast-26kvATgVZy2r2Q9oYf9LGEo9W" src="https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W.js" async></script>
-<script id="asciicast-nXcuPDg1zYC7iGwHNJZuW0Jeb" src="https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb.js" async></script>
+[![asciicast](https://asciinema.org/a/BohA73gUA3UOK1amUXtpYGWxF.svg)](https://asciinema.org/a/BohA73gUA3UOK1amUXtpYGWxF)
+[![asciicast](https://asciinema.org/a/79eHBuovbqd5fearkLFY037CX.svg)](https://asciinema.org/a/79eHBuovbqd5fearkLFY037CX)
+[![asciicast](https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n.svg)](https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n)
+[![asciicast](https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W.svg)](https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W)
+[![asciicast](https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb.svg)](https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb)
 
 
 ### Hexlet tests and linter status:
