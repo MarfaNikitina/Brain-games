@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 from random import randint
+RULE_OF_THE_GAME = 'Answer "yes" if the number is even, ' \
+                       'otherwise answer "no".'
 
 
 def is_even(number):
@@ -10,11 +12,9 @@ def is_even(number):
 
 
 def game():
-    RULE_OF_THE_GAME = 'Answer "yes" if the number is even, ' \
-                       'otherwise answer "no".'
     question = randint(1, 100)
     if is_even(question):
-        true_result = 'yes'
+        correct_answer = 'yes'
     else:
-        true_result = 'no'
-    return question, true_result, RULE_OF_THE_GAME
+        correct_answer = 'no'
+    return question, correct_answer

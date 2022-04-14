@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 from random import randint
+RULE_OF_THE_GAME = 'Answer "yes" if given number is prime.' \
+                       'Otherwise answer "no".'
 
 
 def is_prime(num):
-    dev = 2
-    while num % dev != 0:
-        dev += 1
-    return dev == num
+    devider = 2
+    while num % devider != 0:
+        devider += 1
+    return devider == num
 
 
 def game():
-    RULE_OF_THE_GAME = 'Answer "yes" if given number is prime.' \
-                       'Otherwise answer "no".'
     question = randint(1, 100)
     if is_prime(question):
-        true_result = 'yes'
+        correct_answer = 'yes'
     else:
-        true_result = 'no'
-    return question, true_result, RULE_OF_THE_GAME
+        correct_answer = 'no'
+    return question, correct_answer
