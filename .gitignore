@@ -1,7 +1,7 @@
 .venv
 venv
 dist
-pycache
+__pycache__
 *.pyc
 new_venv
 setup.cfg
