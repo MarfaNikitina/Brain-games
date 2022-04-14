@@ -24,7 +24,13 @@
 <a href="https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n" target="_blank"><img src="https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n.svg" /></a>
 <a href="https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W" target="_blank"><img src="https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W.svg" /></a>
 <a href="https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb" target="_blank"><img src="https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb.svg" /></a>
-<script src="https://asciinema.org/a/14.js" id="asciicast-14" async data-autoplay="true" data-size="big"></script>
+
+<script id="asciicast-BohA73gUA3UOK1amUXtpYGWxF" src="https://asciinema.org/a/BohA73gUA3UOK1amUXtpYGWxF.js" async></script>
+<script id="asciicast-79eHBuovbqd5fearkLFY037CX" src="https://asciinema.org/a/79eHBuovbqd5fearkLFY037CX.js" async></script>
+<script id="asciicast-0CoVMZFXJOS6b6Krl4hK3Lt5n" src="https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n.js" async></script>
+<script id="asciicast-26kvATgVZy2r2Q9oYf9LGEo9W" src="https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W.js" async></script>
+<script id="asciicast-nXcuPDg1zYC7iGwHNJZuW0Jeb" src="https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb.js" async></script>
+
 
 ### Hexlet tests and linter status:
 https://github.com/MarfaNikitina/python-project-lvl1/.github/workflows/main.yml/badge.svg)
