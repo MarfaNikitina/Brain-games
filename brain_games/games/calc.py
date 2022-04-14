@@ -12,6 +12,6 @@ def generate_question_and_answer():
            '*': operator.mul}
     random_ops = choice(list(ops.keys()))
     correct_operator = ops[random_ops]
-    correct_answer = correct_operator(numb1, numb2)
+    correct_answer = str(correct_operator(numb1, numb2))
     question = str(numb1) + ' ' + random_ops + ' ' + str(numb2)
     return question, correct_answer
