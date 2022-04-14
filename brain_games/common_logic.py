@@ -16,7 +16,7 @@ def start_the_game(module):
         answer = prompt.string('Your answer: ')
         if answer == true_answer:
             print('Correct!')
-            if i == 3:
+            if i == 2:
                 print(f'Congratulations, {name}!')
         else:
             print(f"'{answer}' is wrong answer ;(."
