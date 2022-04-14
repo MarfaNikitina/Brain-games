@@ -14,7 +14,7 @@ def make_progression():
     return progression_list
 
 
-def game():
+def generate_question_and_answer():
     random_expression = make_progression()
     secret_num = choice(random_expression)
     correct_answer = str(secret_num)

@@ -4,7 +4,7 @@ import operator
 RULE_OF_THE_GAME = 'What is the result of the expression?'
 
 
-def game():
+def generate_question_and_answer():
     numb1 = randint(1, 100)
     numb2 = randint(1, 100)
     ops = {'+': operator.add,

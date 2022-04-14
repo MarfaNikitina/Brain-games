@@ -11,7 +11,7 @@ def is_prime(num):
     return devider == num
 
 
-def game():
+def generate_question_and_answer():
     question = randint(1, 100)
     if is_prime(question):
         correct_answer = 'yes'

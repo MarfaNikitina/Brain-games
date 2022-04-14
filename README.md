@@ -24,6 +24,7 @@
 <a href="https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n" target="_blank"><img src="https://asciinema.org/a/0CoVMZFXJOS6b6Krl4hK3Lt5n.svg" /></a>
 <a href="https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W" target="_blank"><img src="https://asciinema.org/a/26kvATgVZy2r2Q9oYf9LGEo9W.svg" /></a>
 <a href="https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb" target="_blank"><img src="https://asciinema.org/a/nXcuPDg1zYC7iGwHNJZuW0Jeb.svg" /></a>
+<script src="https://asciinema.org/a/14.js" id="asciicast-14" async data-autoplay="true" data-size="big"></script>
 
 ### Hexlet tests and linter status:
 https://github.com/MarfaNikitina/python-project-lvl1/.github/workflows/main.yml/badge.svg)
