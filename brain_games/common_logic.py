@@ -11,12 +11,10 @@ def start_the_game(module):
     if name:
         print('Hello, {}!'.format(name))
     print(rule_of_the_game)
-    i = 0
-    while i < MAX_COUNT_OF_TRY:
+    for i in range(MAX_COUNT_OF_TRY):
         print(f'Question: {expression}')
         answer = prompt.string('Your answer: ')
         if answer == true_answer:
-            i += 1
             print('Correct!')
             if i == 3:
                 print(f'Congratulations, {name}!')
