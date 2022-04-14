@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from random import randint
-RULE_OF_THE_GAME = 'Answer "yes" if given number is prime.' \
-                       'Otherwise answer "no".'
+RULE_OF_THE_GAME = 'Answer "yes" if given number is prime. ' \
+                   'Otherwise answer "no".'
 
 
 def is_prime(num):
