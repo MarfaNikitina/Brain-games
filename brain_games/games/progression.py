@@ -19,5 +19,5 @@ def generate_question_and_answer():
             new_progression = new_progression + '..'
         else:
             new_progression = new_progression + item
-    question = { }.join(new_progression)
+    question = " ".join(new_progression)
     return question, correct_answer
