@@ -3,15 +3,15 @@ import prompt
 MAX_COUNT_OF_TRY = 3
 
 
-def start_the_game(game):
+def start(game):
     expression, true_answer = game.generate_question_and_answer()
-    rule_of_the_game = game.RULE_OF_THE_GAME
+    rule_of_the_game = game.RULE
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     if name:
         print('Hello, {}!'.format(name))
     print(rule_of_the_game)
-    for i in range(MAX_COUNT_OF_TRY):
+    for _ in range(MAX_COUNT_OF_TRY):
         print(f'Question: {expression}')
         answer = prompt.string('Your answer: ')
         if answer == true_answer:

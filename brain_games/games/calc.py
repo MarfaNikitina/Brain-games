@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from random import randint, choice
 import operator
-RULE_OF_THE_GAME = 'What is the result of the expression?'
+RULE = 'What is the result of the expression?'
 
 
 def generate_question_and_answer():

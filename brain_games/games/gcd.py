@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from random import randint
 import math
-RULE_OF_THE_GAME = 'Find the greatest common divisor of given numbers.'
+RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def generate_question_and_answer():

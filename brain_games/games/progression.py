@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from random import randint, choice
-RULE_OF_THE_GAME = 'What number is missing in the progression?'
+RULE = 'What number is missing in the progression?'
 LENGTH_OF_PROGRESSION = 10
 
 

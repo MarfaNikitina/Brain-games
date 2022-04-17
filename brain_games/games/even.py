@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from random import randint
-RULE_OF_THE_GAME = 'Answer "yes" if the number is even, ' \
+RULE = 'Answer "yes" if the number is even, ' \
                    'otherwise answer "no".'
 
 
