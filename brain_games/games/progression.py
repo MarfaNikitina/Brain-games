@@ -13,7 +13,6 @@ def generate_question_and_answer():
         progression.append(str(next_step))
     secret_index = choice(range(len(progression) - 1))
     correct_answer = progression[secret_index]
-    progression.insert(secret_index, '..')
-    progression.pop(secret_index + 1)
+    progression[secret_index] = '..'
     question = " ".join(progression)
     return question, correct_answer
