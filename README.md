@@ -7,7 +7,7 @@
 5) Простое ли число (brain-prime)
 
 Игры имеют общую логику, и запускаются "движком" ( из модуля common_logic), получающим на вход игру.
-Из игры извлекается 3 необходимые переменные (вопрос, правильный ответ и разные для каждой игры правила игры (константа RULE_OF_THE_GAME)
+Из игры извлекается 3 необходимые переменные (вопрос, правильный ответ и разные для каждой игры правила игры (константа RULE)
 Далее, переменные подставляются в функцию общей логики и все игры происходят по общему сценарию:
 1) Приветствие + получение имени игрока
 2) вывод правил игры
@@ -22,7 +22,6 @@
 
 
 ### Hexlet tests and linter status:
-https://github.com/MarfaNikitina/python-project-lvl1/.github/workflows/main.yml/badge.svg)
 
 <a href="https://codeclimate.com/github/MarfaNikitina/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/2c15c08d6adfe1e350ae/maintainability" /></a>
 
