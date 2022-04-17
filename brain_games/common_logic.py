@@ -14,11 +14,11 @@ def start(game):
     for _ in range(MAX_COUNT_OF_TRY):
         print(f'Question: {expression}')
         answer = prompt.string('Your answer: ')
-        if answer == true_answer:
-            print('Correct!')
-        else:
+        if answer != true_answer:
             print(f"'{answer}' is wrong answer ;(."
                   f" Correct answer was '{true_answer}'.")
             print(f"Let's try again, {name}!")
             break
+        else:
+            print('Correct!')
         print(f'Congratulations, {name}!')

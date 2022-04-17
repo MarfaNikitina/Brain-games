@@ -4,24 +4,20 @@ RULE = 'What number is missing in the progression?'
 LENGTH_OF_PROGRESSION = 10
 
 
-def make_progression():
+def generate_question_and_answer():
     num = randint(0, 10)
     step = randint(1, 10)
-    progression_list = []
+    progression = ''
     for i in range(LENGTH_OF_PROGRESSION):
-        next_step = num + step * i
-        progression_list.append(next_step)
-    return progression_list
-
-
-def generate_question_and_answer():
-    random_expression = make_progression()
-    secret_num = choice(random_expression)
-    correct_answer = str(secret_num)
-    question = ''
-    for numb in random_expression:
-        if numb == secret_num:
-            question = question + '..' + ' '
+        next_step = str(num + step * i)
+        progression = progression + next_step
+    secret_number = choice(progression)
+    correct_answer = secret_number
+    new_progression = ''
+    for item in progression:
+        if item == secret_number:
+            new_progression = new_progression + '..'
         else:
-            question = question + str(numb) + ' '
+            new_progression = new_progression + item
+    question = { }.join(new_progression)
     return question, correct_answer
