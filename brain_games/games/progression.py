@@ -7,17 +7,13 @@ LENGTH_OF_PROGRESSION = 10
 def generate_question_and_answer():
     num = randint(0, 10)
     step = randint(1, 10)
-    progression = ''
+    progression = []
     for i in range(LENGTH_OF_PROGRESSION):
-        next_step = str(num + step * i)
-        progression = progression + next_step
-    secret_number = choice(progression)
-    correct_answer = secret_number
-    new_progression = ''
-    for item in progression:
-        if item == secret_number:
-            new_progression = new_progression + '..'
-        else:
-            new_progression = new_progression + item
-    question = " ".join(new_progression)
+        next_step = num + step * i
+        progression.append(str(next_step))
+    secret_index = choice(range(len(progression) - 1))
+    correct_answer = progression[secret_index]
+    progression.insert(secret_index, '..')
+    progression.pop(secret_index + 1)
+    question = " ".join(progression)
     return question, correct_answer
