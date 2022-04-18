@@ -4,7 +4,6 @@ MAX_COUNT_OF_TRY = 3
 
 
 def start(game):
-    expression, true_answer = game.generate_question_and_answer()
     rule_of_the_game = game.RULE
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -12,6 +11,7 @@ def start(game):
         print('Hello, {}!'.format(name))
     print(rule_of_the_game)
     for _ in range(MAX_COUNT_OF_TRY):
+        (expression, true_answer) = game.generate_question_and_answer()
         print(f'Question: {expression}')
         answer = prompt.string('Your answer: ')
         if answer == true_answer:
