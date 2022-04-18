@@ -11,7 +11,7 @@ def start(game):
         print('Hello, {}!'.format(name))
     print(rule_of_the_game)
     for _ in range(MAX_COUNT_OF_TRY):
-        (expression, true_answer) = game.generate_question_and_answer()
+        (expression, true_answer) = (game.generate_question_and_answer())
         print(f'Question: {expression}')
         answer = prompt.string('Your answer: ')
         if answer == true_answer:
