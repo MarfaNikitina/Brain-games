@@ -5,10 +5,7 @@ RULE = 'Answer "yes" if the number is even, ' \
 
 
 def is_even(number):
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+    return number % 2 == 0
 
 
 def generate_question_and_answer():
